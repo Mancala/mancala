@@ -7,7 +7,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("My java class created by Naved");
+		System.out.println("Java class created by Naved");
 
 	}
 
