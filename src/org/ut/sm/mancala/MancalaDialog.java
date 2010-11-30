@@ -16,7 +16,7 @@ public class MancalaDialog extends JFrame {
 	//private JLabel resultLabel = null;
 	private JPanel jPanel = null;
 	private JButton start = null;
-	private JButton csButton = null;
+	private JButton toCelsiusButton = null;
 
 	/**
 	 * This is the default constructor
@@ -82,9 +82,6 @@ public class MancalaDialog extends JFrame {
 		return start;
 	}
 	
-	public static void main(String[] args){
-		new MancalaDialog();
-		
-	}
+	
 
 }
