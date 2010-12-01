@@ -30,3 +30,7 @@ Project Structure
     -- 40 Object Diagrams
     -- User Manual
     -- Documentation
+
+This is the final version of the Mancala Project, it is working fine and the GUI is implemented properly, All the bugs are fixed, class diagram is included here, Testcases are included here and generated files along with Mancala.ctr file is included.
+
+All the team memebers worked in this project as a pair Progmming, all the tasks are done in pairing.

@@ -14,7 +14,7 @@ import org.ut.sm.mancala.client.Player;
 public class MancalaController implements ActionListener {
 	
 	MancalaGUI mGUI;
-	Game game = new Game();
+	Game game = Game.getInstance();
 	Player p1;
 	Player p2;
 	int player1Stones = 0, player2Stones = 0;

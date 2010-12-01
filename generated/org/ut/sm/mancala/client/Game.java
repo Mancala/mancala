@@ -14,7 +14,7 @@ public class Game
 
 
 
-   public  Game ()
+   private  Game ()
    {
 
       gameHistory = new ArrayList();
@@ -203,6 +203,18 @@ public class Game
               ? 0
               : this.gameStatus2.size ());
    }
+
+   public static Game getInstance ()
+   {
+
+      return instance;
+   }
+
+   public static final String PROPERTY_INSTANCE = "instance";
+
+   @Property( name = PROPERTY_INSTANCE, kind = ReferenceHandler.ReferenceKind.ATTRIBUTE )
+   private static final Game instance = new Game();
+
 
    /**
     * <pre>
