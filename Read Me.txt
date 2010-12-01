@@ -2,17 +2,15 @@
 
 
 
-
-Please Refer to the MancalaFinal folder inside the mancala project, that copy is final and stable,
+This copy of the mancala project is  final and stable,
 apart from some error that appears when trying open the ctr file in Eclipse Fujaba Perspective, 
 Please if you find that error Click on  YES for 3 or 4 times.
 
 
 Project Structure
 
----MancalaFinal
-     -- .settings
-     --  bin
+
+
      --  generated  (org.ut.sm.mancala.cliet.Cup.java)
      		    (org.ut.sm.mancala.cliet.CurrentGameRecord.java)
      		    (org.ut.sm.mancala.cliet.Game.java)
@@ -23,12 +21,10 @@ Project Structure
      --  src        (org.ut.sm.mancala.MancalaController.java)
      		    (org.ut.sm.mancala.MancalaGUI.java)
      		    (org.ut.sm.mancala.StartMancala.java)
-     -- .classpath
-     -- .project
      --  Mancala.ctr (class Diagram, Testcases)
+    
      
-     
-    This repository includes 
+    This repository also includes 
     
     -- 30 User Stories 
     -- 40 Object Diagrams
